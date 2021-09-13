@@ -56,6 +56,10 @@ main {
 .part1- {
   padding: 50px;
 }
+#color2 {
+  color: #d97e7e;
+}
+
 @media only screen and (min-width: 100px) {
   body {
     display: grid;
