@@ -17,3 +17,6 @@ header {
 header nav li:last-child {
   margin-right: 2rem;
 }
+.div2 {
+  background-color: white;
+}
