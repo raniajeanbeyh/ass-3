@@ -30,7 +30,9 @@ header nav li:last-child {
   margin-right: 2rem;
 }
 .base-timer {
-  padding: 100px;
+  font-size: 100px;
+  text-align: center;
+  color: white;
 }
 .part2 {
   background-color: white;
