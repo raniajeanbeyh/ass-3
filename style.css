@@ -1,0 +1,19 @@
+nav li {
+  list-style: none;
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+header nav li:first-child {
+  margin-right: auto;
+}
+header {
+  background-color: #db524d;
+}
+header nav li:last-child {
+  margin-right: 2rem;
+}
