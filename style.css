@@ -1,6 +1,13 @@
 nav li {
   list-style: none;
   display: flex;
+  color: white;
+}
+nav li a {
+  color: white;
+  background-color: #df645f;
+  padding: 10px;
+  text-decoration: none;
 }
 header nav ul {
   display: flex;
@@ -11,12 +18,30 @@ header nav ul {
 header nav li:first-child {
   margin-right: auto;
 }
-header {
+header,
+body {
   background-color: #db524d;
 }
+
 header nav li:last-child {
   margin-right: 2rem;
 }
 .div2 {
   background-color: white;
+}
+main {
+  margin: 50px;
+}
+.part1 {
+  background-color: #df645f;
+}
+.part1 > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.part1 li a {
+  color: white;
+  text-decoration: none;
 }
