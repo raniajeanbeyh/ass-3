@@ -57,13 +57,15 @@ main {
   padding: 50px;
 }
 #color2 {
-  color: #d97e7e;
+  color: #df645f;
 }
-
+.part2 {
+  font-family: "Rubik", sans-serif;
+}
 @media only screen and (min-width: 100px) {
   body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-column: 2/3;
     background-color: white;
   }
