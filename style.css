@@ -32,7 +32,7 @@ header nav li:last-child {
 }
 
 .base-timer {
-  font-size: 100px;
+  font-size: 70px;
   text-align: center;
   color: white;
 }
@@ -75,10 +75,34 @@ main {
   color: white;
   text-align: center;
 }
+.writing {
+  color: #f1b0ad;
+  text-align: center;
+}
 .part2,
 .part1,
-.part1- {
+.part1-,
+.last {
   font-family: "Rubik", sans-serif;
+}
+.part2,
+.last {
+  font-family: "Rubik", sans-serif;
+}
+
+.class-5 {
+  text-decoration: none;
+}
+.class-5 h4 {
+  transition: font-size 0.5s ease;
+  text-decoration: none;
+}
+.class-5 h4:hover {
+  font-size: 1.3em;
+}
+.last {
+  background-color: #df645f;
+  padding: 0.5rem;
 }
 .part2 > h3 {
   border-left: 5px solid #db524d;
@@ -86,18 +110,35 @@ main {
 .icon-2 {
   color: white;
 }
-.class-2 ul {
+#nbs {
+  font-size: 19px;
+  color: white;
+}
+.class-2 ul,
+.class-3 ul,
+.class-4 ul {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.class-2 ul li:first-child {
+.class-2 ul li:first-child,
+.class-3 ul li:first-child + li,
+.class-4 ul li:first-child + li {
   margin-right: auto;
 }
 .class-2 {
   color: white;
   border-bottom: 1px solid white;
+}
+.class-3,
+.class-4 {
+  color: black;
+  background-color: white;
+}
+.class-5 {
+  border: 2px dotted black;
+  text-align: center;
 }
 @media only screen and (min-width: 100px) {
   body {
@@ -105,7 +146,7 @@ main {
     grid-template-columns: 1fr 2fr 1fr;
     grid-column: 2/3;
     background-color: white;
-    background: linear-gradient(to bottom, #db524d 50%, white 0%);
+    background: linear-gradient(to bottom, #db524d 54%, white 0%);
   }
   header,
   main,
