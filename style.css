@@ -71,6 +71,7 @@ main {
     grid-template-columns: 1fr 2fr 1fr;
     grid-column: 2/3;
     background-color: white;
+    background: linear-gradient(to bottom, #db524d 45%, white 0%);
   }
   header,
   main {
